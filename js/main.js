@@ -1,15 +1,15 @@
 /**
  * Fichier de base pour application web HTML/CSS/JS
- * @author  Steve Fallet
+ * @author  Luca Pinto
  * @version 0.1
- * @since   2019-08-19
+ * @since   23.08.2022
  */
 
 (function main() {
-  'use strict'; // Demande un interprétation stricte du code
+  'use strict'; // Demande une interprétation stricte du code
 
-  let a = 'Bonjour';
-
-  console.log(a);
+  const celsius = prompt('Temperature en celsius :');
+  let farehneit = celsius * 9 / 5 + 32;
+  alert(`${celsius}°C = ${farehneit}°F`);
 }()); // Main IIFE
 
